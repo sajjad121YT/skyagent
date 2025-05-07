@@ -20,8 +20,7 @@
 
 
 # News
-- **[2025/05/06]** 🎉 We released SkyRL-v0: the first open-source online RL training framework for multi-turn tool use LLMs, optimized for long-horizon, real-environment tasks like SWE-Bench!
-
+- **[2025/05/06]** 🎉 We released SkyRL-v0: our open RL training pipeline for multi-turn tool use LLMs, optimized for long-horizon, real-environment tasks like SWE-Bench!
 
 # Links
 
