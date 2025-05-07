@@ -25,7 +25,7 @@
 
 # Links
 
-- 📜 [SkyRL-v0 Blog Post](https://novasky-ai.github.io/posts/skyrl-v0/)
+- 📜 [SkyRL-v0 Blog Post](https://novasky-ai.notion.site/skyrl-v0)
 
 
 # Getting Started
