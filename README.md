@@ -60,7 +60,8 @@ sudo ln -s /usr/local/cuda-12.4/compat/libcuda.so.1 /usr/lib/libcuda.so.1
 
 For reproducing our results for SkyRL-Agent-14B-v0, SkyRL-Agent-8B-v0, and SkyRL-Agent-7B-v0 you can refer to [examples/sky](./examples/sky/README.md).
 
-# SWE-Bench-Verified Evaluation Results
+# Evaluation
+We report the evaluation result on SWE-Bench-Verified below:
 
 | Model              | Base                 | Base Performance | Performance | Training Time |
 |--------------------|----------------------|------------------|-------------|---------------|
