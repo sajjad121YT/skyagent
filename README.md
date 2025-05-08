@@ -36,12 +36,9 @@ This repository contains training code for the `SkyRL-v0` release. Our implement
 
 The only pre-requisite is having `uv` [installed](https://docs.astral.sh/uv/getting-started/installation) on your system. We use the `uv` + `ray` integration to easily manage dependencies in multi-node training. 
 
-### Clone SkyRL-OpenHands
-
-We use [SkyRL-OpenHands](https://github.com/NovaSky-AI/SkyRL-OpenHands) to be able to connect to our remote runtime server. Clone the repository and place it in the git root:
-
+### Clone SkyRL
 ```bash 
-git clone https://github.com/NovaSky-AI/SkyRL-OpenHands
+git clone --recurse-submodules https://github.com/NovaSky-AI/SkyRL
 ```
 
 ### Installation dry run
