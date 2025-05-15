@@ -30,7 +30,8 @@
 
 
 # Getting Started
-This repository contains training code for the `SkyRL-v0` release. Our implementation is a fork of [VeRL](https://github.com/volcengine/verl).  
+This repository contains training code for the `SkyRL-v0` release. Our implementation is a fork of [VeRL](https://github.com/volcengine/verl).   
+The repo is currently utilizing the SGLang async rollout feature introduced to VeRL in this draft [PR](https://github.com/volcengine/verl/pull/917), based on this [commit](https://github.com/volcengine/verl/commits/436530d6ec2b449e035fd2e823ad5b363cbf908e). We will refactor the code soon so that the codebase can easily keep up with VeRL main branch.
 
 ## Installation
 
@@ -57,7 +58,7 @@ We report the evaluation result on SWE-Bench-Verified below:
 
 
 # Acknowledgement
-This work is done at [Berkeley Sky Computing Lab](https://sky.cs.berkeley.edu/), with the amazing compute support from [Lambda Labs](https://lambdalabs.com/service/gpu-cloud?srsltid=AfmBOop5FnmEFTkavVtdZDsLWvHWNg6peXtat-OXJ9MW5GMNsk756PE5), [Anyscale](https://www.anyscale.com/), [Databricks](https://www.databricks.com/), and [AMD](https://www.amd.com/).
+This work is done at [Berkeley Sky Computing Lab](https://sky.cs.berkeley.edu/), with the amazing compute support from [Anyscale](https://www.anyscale.com/), [Databricks](https://www.databricks.com/), [NVIDIA](https://developer.nvidia.com/brev), [Lambda Labs](https://lambdalabs.com/service/gpu-cloud?srsltid=AfmBOop5FnmEFTkavVtdZDsLWvHWNg6peXtat-OXJ9MW5GMNsk756PE5), and [AMD](https://www.amd.com/).
 
 We would also like to thank [Ying Sheng](https://sites.google.com/view/yingsheng/home), [Chenyang Zhao](https://zhaochenyang20.github.io/Chayenne/) from [SGLang](https://github.com/sgl-project/sglang) team for supporting SGLang async rollout integration, and [Kaichao You](https://youkaichao.github.io/research), [Simon Mo](https://github.com/simon-mo) from [vLLM](https://github.com/vllm-project/vllm) team for supporting vLLM performance optimization.
 
