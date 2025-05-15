@@ -17,7 +17,11 @@ We provide the datasets we used on HuggingFace: https://huggingface.co/novasky-a
 
 We used [NovaSky-AI/SkyRL-v0-293-data](https://huggingface.co/datasets/NovaSky-AI/SkyRL-v0-293-data) for training both SkyRL-Agent-8B-v0 and SkyRL-Agent-14B-v0.
 We used [NovaSky-AI/SkyRL-v0-80-data](https://huggingface.co/datasets/NovaSky-AI/SkyRL-v0-80-data) (first stage) and [NovaSky-AI/SkyRL-v0-220-data](https://huggingface.co/datasets/NovaSky-AI/SkyRL-v0-220-data) (second stage) to train SkyRL-Agent-7B-v0.
-Make sure to download the dataset and update the path in `DATA_PATH` in the script. 
+Make sure to download the dataset and update the path in `DATA_PATH` in the script, e.g. via
+
+```bash
+uv run huggingface-cli download NovaSky-AI/SkyRL-v0-293-data --repo-type dataset --local-dir <path_to_swegym_dataset>
+```
 
 ### Setup Environment variables
 
