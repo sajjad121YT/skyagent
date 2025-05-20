@@ -543,6 +543,8 @@ class RayPPOTrainer(object):
             
             if self.config.actor_rollout_ref.rollout.task_type == "swegym": 
                 non_tensor_batch_keys = ["instance"]
+            elif self.config.actor_rollout_ref.rollout.task_type == "sql":
+                non_tensor_batch_keys = ["db_id", "data_source"]
             else:
                 non_tensor_batch_keys = ["raw_prompt_ids"]
 
@@ -938,6 +940,11 @@ class RayPPOTrainer(object):
                     if self.config.actor_rollout_ref.rollout.task_type == "swegym":  # TODO(haoran): pass arg list here
                         gen_batch = batch.pop(batch_keys=batch_keys,
                                                 non_tensor_batch_keys=['instance'])
+                    elif self.config.actor_rollout_ref.rollout.task_type == "sql":
+                        gen_batch = batch.pop(batch_keys=batch_keys,
+                                                non_tensor_batch_keys=["db_id", "data_source"])
+                        
+                        # print(f"Gen batch non tensor batch keys: {gen_batch.non_tensor_batch}")
                     else:
                         gen_batch = batch.pop(batch_keys=batch_keys,
                                                 non_tensor_batch_keys=['raw_prompt_ids'])
