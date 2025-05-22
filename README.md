@@ -75,6 +75,8 @@ We report the evaluation result on a range of Spider benchmarks (evaluated in 5 
 # Acknowledgement
 This work is done at [Berkeley Sky Computing Lab](https://sky.cs.berkeley.edu/), with the amazing compute support from [Anyscale](https://www.anyscale.com/), [Databricks](https://www.databricks.com/), [NVIDIA](https://developer.nvidia.com/brev), [Lambda Labs](https://lambdalabs.com/service/gpu-cloud?srsltid=AfmBOop5FnmEFTkavVtdZDsLWvHWNg6peXtat-OXJ9MW5GMNsk756PE5), and [AMD](https://www.amd.com/).
 
+Huge thanks to the contributors of the SGLang async rollout feature in VeRL: Hancheng Zhang, Rui Lu, Haoran Wang from Tsinghua University, Xiang Long from OpenBMB/ModelBest.
+
 We would also like to thank [Ying Sheng](https://sites.google.com/view/yingsheng/home), [Chenyang Zhao](https://zhaochenyang20.github.io/Chayenne/) from [SGLang](https://github.com/sgl-project/sglang) team for supporting SGLang async rollout integration, and [Kaichao You](https://youkaichao.github.io/research), [Simon Mo](https://github.com/simon-mo) from [vLLM](https://github.com/vllm-project/vllm) team for supporting vLLM performance optimization.
 
 # Citation
