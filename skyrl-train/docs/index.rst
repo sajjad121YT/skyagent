@@ -19,26 +19,26 @@ SkyRL-Train is a reinforcement learning framework designed for modularity and ex
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tutorials: Modifying the training stack
-
-   examples/new_env
-   examples/async
-   examples/tools_guide
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Recipes
-
-   recipes/skyrl-sql
-
-.. toctree::
-   :maxdepth: 2
    :caption: Examples
 
    examples/ppo
    examples/remote_server
    examples/training_backends
    examples/multi_turn_text2sql
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutorials
+
+   tutorials/new_env
+   tutorials/async
+   tutorials/tools_guide
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Recipes
+
+   recipes/skyrl-sql
 
 .. toctree::
    :maxdepth: 2
