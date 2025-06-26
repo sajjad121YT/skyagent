@@ -7,7 +7,7 @@
 
 # Overview
 
-`skyrl-train` is SkyRL's highly modular, performant RL framework for post-training LLMs. With a focus on modularity, SkyRL makes it easy to prototype new training algorithms, environments, and execution plans—without compromising usability or speed. 
+ With a focus on modularity, `skyrl-train` makes it easy to prototype new training algorithms, environments, and execution plans—without compromising usability or speed. 
 
 `skyrl-train` is **for users who want to modify anything:**
 
