@@ -93,3 +93,15 @@ This work is done at [**Berkeley Sky Computing Lab**](https://sky.cs.berkeley.e
 We adopt many lessons and code from several great projects such as [veRL](https://github.com/volcengine/verl), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [OpenReasonerZero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero), and [NeMo-RL](https://github.com/NVIDIA-NeMo/RL). We appreciate each of these teams and their contributions to open-source research!
 
 
+
+# Citation
+
+If you find the work in `skyrl-train` helpful, please consider citing:
+```bibtex
+@misc{griggs2025skrylv01,
+      title={Evolving SkyRL into a Highly-Modular RL Framework},
+      author={Tyler Griggs and Sumanth Hegde and Eric Tang and Shu Liu and Shiyi Cao and Dacheng Li and Philipp Moritz and Kourosh Hakhamaneshi and Richard Liaw and Akshay Malik and Matei Zaharia and Joseph E. Gonzalez and Ion Stoica},
+      year={2025},
+      note={Notion Blog}
+}
+```
