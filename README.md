@@ -21,7 +21,7 @@
 
 # Overview
 
-SkyRL is a full-stack RL framework that provides the following components:
+SkyRL is a full-stack RL library that provides the following components:
 
 - [`skyagent`](./skyagent): Our agent layer for training long-horizon, real-world agents. Contains code for [SkyRL-v0](https://novasky-ai.notion.site/skyrl-v0).
 - (**NEW**) [`skyrl-train`](./skyrl-train): Our modular, performant training framework for RL.
