@@ -84,7 +84,11 @@ export WANDB_API_KEY=<your wandb api key>
 bash examples/gsm8k/run_gsm8k.sh
 ```
 
-For detailed installation instructions, as well as more examples, please refer to our [documentation](https://skyrl.readthedocs.io/en/latest/)
+For detailed installation instructions, as well as more examples, please refer to our [documentation](https://skyrl.readthedocs.io/en/latest/).
+
+## Reproducing SkyRL-SQL
+We also test SkyRL by reproducing our prior release [SkyRL-SQL](https://novasky-ai.notion.site/skyrl-sql), which enabled efficient Multi-Turn RL for Text2SQL. 
+You can find a link to the wandb report [here](https://wandb.ai/sky-posttraining-uc-berkeley/skyrl-sql/reports/SkyRL-SQL---VmlldzoxMzM0MTAyMw), and a detailed walk through of the reproduction in our [documentation](https://skyrl.readthedocs.io/en/latest/examples/multi_turn_text2sql.html).
 
 # Acknowledgement
 
