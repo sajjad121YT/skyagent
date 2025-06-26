@@ -44,6 +44,7 @@ SkyRL-Train is a reinforcement learning framework designed for modularity and ex
    :caption: Configuration
 
    configuration/config
+   configuration/placement
 
 .. toctree::
    :maxdepth: 2
