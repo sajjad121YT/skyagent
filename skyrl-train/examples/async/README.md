@@ -1,18 +1,16 @@
 # Async Training Example
 
-An example where training and generation can happen asynchronously with each other (off-by-one). 
+One-step off-policy GRPO for Qwen2.5-1.5B-Instruct on GSM8K.
 
-## Instructions to run
+## Usage
 
-1. Start the remote vllm server on 4 gpus (assuming 8 gpus are available in total): 
+```bash 
+# prepare the dataset
+uv run -- python examples/gsm8k/gsm8k_dataset.py --output_dir $HOME/data/gsm8k
 
-```bash
-CUDA_VISIBLE_DEVICES=4,5,6,7 uv run --isolated --extra vllm -m skyrl_train.inference_engines.vllm.vllm_server --model Qwen/Qwen2.5-1.5B-Instruct --enforce-eager --tensor-parallel-size 4 --seed 42 --distributed-executor-backend mp --max-model-len 4096 --enable-prefix-caching --dtype bfloat16 --trust-remote-code --gpu-memory-utilization 0.7 --enable-sleep-mode --host 127.0.0.1 --port 8001 --worker-extension-cls skyrl_train.inference_engines.vllm.vllm_engine.WorkerWrap
+export WANDB_API_KEY=<your_key_here>
+
+bash examples/async/async_run_gsm8k.sh
 ```
 
-2. Start training: 
-
-
-```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3 bash examples/async/async_run.sh
-```
+For more details, refer to the [documentation](https://skyrl.readthedocs.io/en/latest/tutorials/async.html)
