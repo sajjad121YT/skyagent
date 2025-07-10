@@ -98,6 +98,11 @@ class RayPPOTrainer:
         """
         # prepare dataloader
         batch_size = self.cfg.trainer.train_batch_size if is_train else self.cfg.trainer.eval_batch_size
+
+        # Seed the dataloader for reproducibility.
+        seeded_generator = torch.Generator()
+        seeded_generator.manual_seed(self.cfg.trainer.seed)
+
         dataloader = StatefulDataLoader(
             dataset,
             batch_size=batch_size,
@@ -105,6 +110,7 @@ class RayPPOTrainer:
             collate_fn=dataset.collate_fn,
             num_workers=8,
             drop_last=True if is_train else False,
+            generator=seeded_generator,
         )
         if is_train:
             self.total_training_steps = len(dataloader) * self.cfg.trainer.epochs
