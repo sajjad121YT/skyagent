@@ -42,6 +42,7 @@ uv run --isolated --frozen --extra vllm -m skyrl_train.entrypoints.main_base \
   generator.sampling_params.max_generate_length=500 \
   generator.async_engine=true \
   generator.batched=false \
+  generator.use_conversation_multi_turn=false \
   generator.n_samples_per_prompt=5 \
   generator.max_turns=4 \
   generator.use_conversation_multi_turn=false \
