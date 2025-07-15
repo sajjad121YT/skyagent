@@ -43,6 +43,20 @@ For installation without the Dockerfile, make sure you meet the pre-requisities:
 - `uv <https://docs.astral.sh/uv/>`_
 - `ray <https://docs.ray.io/en/latest/>`_ 2.44.0
 
+System Dependencies
+~~~~~~~~~~~~~~~~~~~
+
+The only packages required are `build-essential` and `libnuma <https://github.com/numactl/numactl>`_. You can install them using the following command:
+
+.. code-block:: bash
+
+    sudo apt update && sudo apt-get install build-essential libnuma-dev
+
+This will require sudo privileges. If you are running on a machine without sudo access, we recommend using the Dockerfile.
+
+Installing SkyRL-Train
+~~~~~~~~~~~~~~~~~~~~~~
+
 All project dependencies are managed by `uv`.
 
 Clone the repo and `cd` into the `skyrl` directory:
