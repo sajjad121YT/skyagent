@@ -4,6 +4,7 @@ from collections import defaultdict
 from datetime import timedelta
 from typing import List, Union, Optional
 from jaxtyping import Float
+import gc
 
 import numpy as np
 import torch
@@ -384,9 +385,10 @@ class FSDPStrategy(DistributedStrategy):
         dist.barrier()
 
         # Extract the actual model for saving
-        save_model = model
         if isinstance(model, Actor):
             save_model = model.model
+        else:
+            save_model = model
 
         if self.fsdp_strategy not in ("fsdp", "fsdp2"):
             raise ValueError(f"Unsupported FSDP strategy: {self.fsdp_strategy}")
@@ -439,11 +441,12 @@ class FSDPStrategy(DistributedStrategy):
                 self.print(f"[rank-{rank}]: Saving extra_state to {os.path.abspath(extra_path)}")
                 torch.save(extra_state_dict, extra_path)
 
-        # Wait for all ranks to finish saving
-        dist.barrier()
+                # Garbage collect temporary buffers from materializing the state dicts
+                gc.collect()
 
         # Final barrier to ensure all operations complete
         dist.barrier()
+        torch.cuda.synchronize()
         self.print(f"[rank-{rank}]: Checkpoint saved to {ckpt_dir}")
 
     def load_ckpt(
