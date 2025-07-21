@@ -126,7 +126,7 @@ class ActorTask:
         dist.destroy_process_group()
 
 
-def test_actor_model_fwd_with_sequence_parallelism():
+def test_actor_model_fwd_with_sequence_parallelism(ray_init_fixture):
 
     # Create input sequence
     tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_NAME, trust_remote_code=True)
